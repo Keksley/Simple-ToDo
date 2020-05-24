@@ -4,7 +4,10 @@ export class Component {
    * @param {string} $el CSS селектор элемента в HTML 
    */
   constructor($el) {
-    this.$el = document.querySelector($el);
+    /**
+     * HTML элемент компонента
+     */
+    this.el = document.querySelector(`.${$el}`);
   }
 
   /**
