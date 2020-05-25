@@ -21,6 +21,6 @@ export class Component {
    * Метод "скрыть элемент"
    */
   hide() {
-    // TODO реализовать функцию hide
+    this.el.classList.add('hidden');
   };
 }

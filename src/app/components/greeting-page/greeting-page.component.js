@@ -3,7 +3,7 @@ import { Component } from '../../../core/component'
 /**
  * Страница приветствия
  */
-export default class WorkingPageComponent  extends Component{
+export default class GreetingPageComponent  extends Component{
   constructor() {
     super('greeting-page');
   }
