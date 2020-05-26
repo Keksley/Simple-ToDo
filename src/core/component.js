@@ -14,13 +14,13 @@ export class Component {
    * Метод "показать элемент"
    */
   show() {
-    // TODO реализовать функцию show
+    this.el.classList.remove('hidden');
   };
 
   /**
    * Метод "скрыть элемент"
    */
   hide() {
-    // TODO реализовать функцию hide
+    this.el.classList.add('hidden');
   };
 }
