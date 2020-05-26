@@ -14,7 +14,7 @@ export class Component {
    * Метод "показать элемент"
    */
   show() {
-    // TODO реализовать функцию show
+    this.el.classList.remove('hidden');
   };
 
   /**
