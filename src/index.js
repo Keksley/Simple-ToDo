@@ -10,3 +10,5 @@ startButton.addEventListener('click', () => {
     greetingPage.hide();
     workingPage.show();
 })
+
+const date = workingPage.el.querySelector('.working-page__date');
