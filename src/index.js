@@ -11,4 +11,5 @@ startButton.addEventListener('click', () => {
     workingPage.show();
 })
 
-const date = workingPage.el.querySelector('.working-page__date');
+const dateSpan = workingPage.el.querySelector('.working-page__date');
+dateSpan.textContent = workingPage.getTodayDate();
