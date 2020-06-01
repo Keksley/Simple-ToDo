@@ -21,3 +21,23 @@
     font-size: 24px;
     margin-left: 5px;
 }
+
+.working-page__btn--settings {
+
+}
+
+.settings {
+    padding:0;
+    margin:0;
+    list-style: none;
+    position: relative;
+}
+.language-menu {
+    padding:0;
+    margin:0;
+    list-style: none;
+    position: relative;
+}
+
+.settings li {
+}
