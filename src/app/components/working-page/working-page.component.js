@@ -19,8 +19,7 @@ function dateHandler(date) {
   const year = date.getFullYear();
   const day = date.toDateString().slice(8, 10);
   const month = `${monthNumber}`.length === 1 ? `0${monthNumber}` : `${monthNumber}`;
-  console.log(day);
-  
+
   const weekday = daysDictionary[date.toDateString().slice(0, 3)];
   return `${weekday} ${day}.${month}.${year}`;
 }
