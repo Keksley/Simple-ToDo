@@ -10,3 +10,6 @@ startButton.addEventListener('click', () => {
     greetingPage.hide();
     workingPage.show();
 })
+
+const dateSpan = workingPage.el.querySelector('.working-page__date');
+dateSpan.textContent = workingPage.getTodayDate();
